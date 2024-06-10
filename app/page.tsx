@@ -71,7 +71,7 @@ const Page = () => {
             });
             try {
                 setLoading(true);
-                const response = await fetch(`http://16.171.28.174:8000/register`, {
+                const response = await fetch(`https://16.171.28.174:8000/register`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
