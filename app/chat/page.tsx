@@ -22,7 +22,7 @@ const ChatBot: React.FC = () => {
     const getReply = async (message: string): Promise<string | undefined> => {
         setIsBotTyping(true);
         try {
-            const url = "https://pyxell-agent-latest.onrender.com/chat/";
+            const url = "https://pyxell-agent-np8u.onrender.com/chat/";
 
             const data = new URLSearchParams({
                 'prompt': message

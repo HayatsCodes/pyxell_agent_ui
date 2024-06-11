@@ -57,7 +57,7 @@ const Page = () => {
             });
             try {
                 setLoading(true);
-                const response = await fetch(`https://pyxell-agent-latest.onrender.com/login`, {
+                const response = await fetch(`https://pyxell-agent-np8u.onrender.com/login`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
