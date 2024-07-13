@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.hide-scrollbar {
+  /* For webkit browsers (Chrome, Safari) */
+  overflow: auto;
+  -ms-overflow-style: none;  /* Internet Explorer and Edge */
+  scrollbar-width: none;     /* Firefox */
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+}
+
+.fixed-child {
+  position: fixed;
+  width: calc(80% - 32px); /* Adjust the width to be the same as the parent minus any padding or margin */
+}
